@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    width: 130px;
+    min-height: 20vh;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cold_day {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: rgb(65, 214, 219);
+    font-weight: 600;
+}
+
+.hot_day {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: red;
+    font-weight: 600;
+}
+
+.icon {
+    width: 80px;
+    object-fit: cover;
+}
+
+.desc {
+    margin: 0;
+    padding-bottom: 10px;
+}
